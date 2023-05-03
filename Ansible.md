@@ -221,7 +221,7 @@ ansible-playbook  play.yaml  -u root -k
   - [ ] Check the syntax for Ansible 
 
 ```
-ansible-playbook  play.yaml  --syntax-check
+ansible-playbook  playbook.yaml  --syntax-check
 ```
 - [ ] Try Dry run
 
