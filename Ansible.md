@@ -215,18 +215,18 @@ ip
   - [ ] run the above playbook
 
 ```
-ansible-playbook  play.yaml  -u root -k
+ansible-playbook  playbook.yaml  -u root -k
 ```
 
   - [ ] Check the syntax for Ansible 
 
 ```
-ansible-playbook  play.yaml  --syntax-check
+ansible-playbook  playbook.yaml  --syntax-check
 ```
 - [ ] Try Dry run
 
 ```
-ansible-playbook  play.yaml  -C
+ansible-playbook  playbook.yaml  -C
 ```
 - [ ] Check all hosts inside a playbook
 - [ ] Install multiple software in one playbook
